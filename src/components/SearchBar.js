@@ -11,7 +11,7 @@ export default class componentName extends Component {
       <div className="ui segment">
         <form onSubmit={this.onFormSubmit} className="ui form">
           <div className="field" >
-            <label>Video Search</label>
+            <label>Video Search Input</label>
             <input
               type="text"
               value ={this.state.term}
